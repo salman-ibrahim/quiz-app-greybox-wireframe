@@ -1,0 +1,118 @@
+* {
+ 	box-sizing: border-box;
+ 	margin: 0px;
+}
+
+body {
+ 	font-family: 'Roboto', sans-serif;
+}
+
+.header  div {
+
+	width: 200px;
+	display: inline-block;
+}
+
+.logo {
+	width: 200px;
+}
+.instructions{
+	float: left;
+}
+
+.new-game {
+	float: right;
+}
+
+.instructions,
+.new-game {
+	cursor: pointer;
+	padding: 10px;
+}
+.nav {
+	position: fixed;
+	text-align: center;
+	height: 100px;
+	width: 100%;
+	background-color: #ababab;
+	padding-top: 25px;
+}
+
+.nav h1 {
+
+	font-weight: bolder;
+}
+.section-question {
+
+
+	margin: 20px;
+	width: 100%;
+}
+
+.quiz-window {
+	width: 70%;
+	padding-top: 150px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.start-quiz {
+	margin: 200px;
+
+}
+
+.start-quiz > button {
+	width: 200px;
+}
+
+.question-container {
+	display: none;
+}
+
+.question {
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.choices {
+
+	width: 100%;
+}
+
+.choice {
+
+	width: 45%;
+	margin: 2%;
+	float: left;
+}
+
+.status {
+	display: none;
+	text-align: center;
+	font-style: italic;
+	color: #ababab;
+}
+
+.status > div {
+	display: inline-block;
+	margin-top: 20px;
+	margin-left: 6%;
+	margin-right: 6%;
+	width: 20%;
+}
+
+.status button {
+	width: 100%;
+}
+
+.progress {
+	text-align: left;
+	float: left;
+}
+
+.score {
+	text-align: right;
+	float: right;
+}
